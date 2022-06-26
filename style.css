@@ -1,0 +1,70 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid #21d0b2;
+	border-radius: 10%;
+}
+
+.container {
+
+}
+
+#landing {
+	/* vh - viewport height -- determines or measures percentage of the height 
+	of the device you are viewing your webpage in. */
+	height: 80vh;
+	/* flexbox -- layouts the elements within the parent element 
+	horizontally & vertically. */
+	display: flex;
+	/* flex-direction -- arranges the flexbox direction depending on the
+	indicated property, in this case is in column. */
+	flex-direction: column;
+	/* align-items -- arranges all flex items to be centered horizontally. */
+	align-items: center;
+	/* justify-content -- arranges elements vertically if in a row, and arranges
+	horizontally if flex direction is in column. */
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: transparent; 
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #FFF08D;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+h3 {
+	color: #007bff;
+}
+
+.tools {
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	padding: 25px;
+	height: 200px;
+	width: 75%;
+	border-radius: 10px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
